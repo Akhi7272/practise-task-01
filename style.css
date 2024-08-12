@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.work-sans-font{
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <400>;
+  font-style: normal;
+}
+html body{
+    margin: 0;
+    padding: 0;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-links{
+    display: flex;
+    gap: 20px;
+}
+.tittle-des{
+    text-align: center;
+    width: 550px;
+    margin: 30px auto;
+}
+.nav-items{
+    list-style: none;
+}
+.brand{
+    color: #131313;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-link{
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 1rem;
+    color: #424242;
+}
+.banner{
+    background-color: bisque;
+}
+.banners{
+    margin: 0px 200px;
+    padding: 30px 0;
+}
+#color{
+    color: #727272;
+}
+.btn-primary{
+    width: 150px;
+    color: white;
+    padding: 10px 15px;
+    background-color: #FF900E;
+    border-radius: 8px;
+    margin: 30px 0 0 0;
+}
+.mainf{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.team{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.team-container{
+    margin-left: 70px;
+    width: 520px;
+}
+.features{
+    color: #FF900E;
+}
+main{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+main > section{
+    margin-top: 120px;
+}
+.container-head{
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+#quick{
+    font-weight: 500;
+    color: #727272;
+}
+.qualities{
+    display: flex;
+}
